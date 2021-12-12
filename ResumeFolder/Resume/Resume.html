@@ -10,7 +10,7 @@
    <!--header-->
    <header>
       <nav>
-   <a href="MySite.html">My Site</a> <br>
+   
    <a href="ContactMe.html">Contact Me</a><br>
    <a href="AboutMe.html">About Me</a><br>
    <a href="Portfolio.html">Portfolio</a>
@@ -18,6 +18,17 @@
          
       </nav>
    </header>
+   <hr>
+   <nav>
+      <a href="#skills"style="padding-right:50px;">SKILLS</a> 
+      <a href="#Digital"style="padding-right:50px;">FILM</a>
+      <a href="#Education"style="padding-right:50px;">EDUCATION</a>
+      <a href="#Projects"style="padding-right:50px;">PROJECTS</a>
+      <a href="#Resume"style="padding-right:50px;">RESUME</a>
+   
+            
+         </nav>
+   <hr>
    
    <div>
       <Section id="Content">
@@ -28,10 +39,11 @@
          </Section>
    
    </div>
+   <hr>
       
-   <!--skill-->
+   <!--skillS/STYLE WITH UNORDER LIST
   <div> 
-     <section id="skills"> 
+      
         <h3>Skills</h3>
       <ul>
          
@@ -41,10 +53,39 @@
         <li>Final Cut</li>
         <li>Film</li>
      </ul>
+     --->
+     <div>
+      <section id="skills"> 
+     
+     <table style="width:100%">
+      
+      
+     
+         <thead class="table-primary">
+           <th colspan="3" style="background-color: rgb(178, 218, 250);" class="h1 text-center">Technical Skills</th>
+         </thead>
+
+
+   
+<tr>
+        <td style="padding-left:100px;">ADOBE STUDIO</td>
+        <td style="padding-left:100px;">LIGHTROOM</td>
+        <td style="padding-left:100px;">PHOTOSHOP</td>
+      </tr>
+      <tr>
+        <td style="padding-left:100px;">FINAL CUT</td>
+        <td style="padding-left:100px;">FILM</td>
+        <td style="padding-left:100px;">DARKROOM</td>
+      </tr>
+    </table>
+     </div>
+     
      </section>
-     <hr>
+     <hr class="border-dark">
+     
      <!--Bio Style-->
-     <section id="Film">
+     <div>
+     <section id="Digital">
         <h3>Film | Digital Photography</h3>
         <ul>
           <li>Wedding</li>
@@ -53,18 +94,47 @@
          <li>Editorial photography</li>
      </ul>
       </section>
+     </div>
+
       <hr>
-   </section>
-   <!--education-->
+      
+   
+   
+  <div>
    
    <section id="Education">
-       <h3>Education</h3>
+       <!---<h3>Education</h3>
        <ul>
            <li>College of Eastern Utah | 2000</li>
            <li>Salt Lake City Community College | 2001</li>
            <li>University of Utah | 2006</li>
        </ul>
-   </section>
+      -->
+      <table style="width: 100%;">
+         <tr>
+         <th colspan="3" style="background-color:rgb(154, 220, 231);">Education</th>
+         
+         <tr>
+            <td>Salt Lake Community College | 2000</td>
+         </tr>
+            <tr>
+            <td>College of Easter Utah | 2001</td>
+            </tr>
+            <tr>
+               <td>University Of Utah | 2006</td>
+            </tr>
+            </table>
+         
+      </section>
+  
+  </div>
+  <hr>
+  <div>
+     
+   
+       
+        
+
   </div>
   <div>
      <Section id="Projects">
@@ -77,17 +147,11 @@
      </Section>
   </div>
   <Div>
+     <hr>
      <!--resume-->
-   <section>
-     <ul>
-      <li> 
-         <a src="./text/Resume2021(8).pdf" download class="download btn btn-lg">Download My Resume</a>
-
-      </li>
-
-     </ul>
-     
-  </section>
+     <section id="Resume"> 
+     <a href="./Images/2021Resume.pdf" download class="download btn btn-lg">Download My Resume</a>
+     </section>
 
    </Div>
 </body>

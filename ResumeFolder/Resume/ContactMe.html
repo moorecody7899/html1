@@ -9,39 +9,90 @@
            <!--header-->
    <header>
     <nav>
- <a href="MySite.html"style="padding-right:50px;">My Site</a> 
- 
+ <a href="Resume.html"style="padding-right:50px;">My Site</a> 
  <a href="AboutMe.html"style="padding-right:50px;">About Me</a>
- <a href="Portfolio.html"style="padding-right:50px;">Portfolio</a>
+ <a href="Portfolio.html"style="padding-right:50px;">Portfolio</a><hr>
 
        
     </nav>
  </header>
  <div>
+    <fieldset>
+   <form action="http://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
+      <label for="name">Name:</label>
+      
+      <input type="text" name="name" id="name"/>
+      <br>
+      <br>
+  
+      <label for="email">Email:</label>
+      
+      <input type="email" name="email" id="email"/>
+      <br>
+      <br>
+     
+      <label for="Telephone">Mobile:</label>
+      
+      <input type="text" name="telephone" id="telephone"/>
+   </fieldset>
+   <br>
+  
+      
+    
+ </div>
+ <div>
+    <fieldset>
      <p>Can we Contact you?</p>
-     <form>
+     
+    
         <input type="radio" id="Yes" name="Contact" value="Yes">
         <label for="Yes">Yes</label>
 
-          <input type="radio" id="No" name="Contact" value="No">
-          <label for="No">No</label>
+        <input type="radio" id="No" name="Contact" value="No">
+        <label for="No">No</label>
+        <br>
+        <p>Best Contact method:</p>
+        <input type="checkbox" id="contactphone" name="contact-phone" value="Phone"
+        label for="contactphone">Phone</label>
+        <input type="checkbox" id="contactemail" name="contact-email" value= "Email" 
+        label for="contactemail">Email</label>
+        <br>
+        <br>
+        <p></p>Comments:</p>
+        
+        <br>
+        
+        <textarea rows="4" cols="50" id="comments" maxlength="350" name="comments">Questions?</textarea>
      
+     
+           
+      
+      </fieldset>
+      <br>
 
-     </form>
+      <button>Submit</button>
+   
+    </form>
+    <br>
+
+  
  </div>
+ <br>
+ <hr>
+ 
  <div>
    <!--Email Me-->
 
         <h2>Email Me</h2>
         
-        <!--<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
-        --->
-        <p><a href="mailto:someone@example.com">Send Email</a></p>
+        
+        <p><a href="mailto:moorecody@mac.com">Send Email</a></p>
         
        
  </div>
     
 </body>
+<hr>
 <!--footer-->
 <footer> 
     <p>Cody Scott Photography|Videography @2021 
