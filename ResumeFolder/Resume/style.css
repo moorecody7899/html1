@@ -1,0 +1,84 @@
+body{
+    background-color: #C4DFE9;
+    font-family: 'Source Code Pro', monospace;
+}
+
+A {color: #035077;
+    text-decoration: none;
+    
+    
+}
+A:hover{
+    background-color: rgb(190, 213, 235);
+}
+h1, h2, h3{
+    margin: 0;
+
+
+
+}
+#digital{
+   
+    list-style-type:none;
+    padding:0;
+
+
+}
+#digital ul{
+    list-style-type:none;
+    padding:0
+}
+#education{
+    color:none;
+    
+}
+#skill{
+    color:none;
+    
+}
+#header{
+    background-color:rgb(235, 231, 231);
+    margin-left: auto;
+    matgin-right: auto;
+    padding: 5px
+
+}
+#Resume{
+    color:rgb(150, 144, 144)
+}
+#Maintext{
+  
+  
+   padding:15px;
+   float:right;
+   width:600px;
+
+  
+   
+   
+
+}
+#photo{
+   margin-left:left;
+   padding:10px;
+   background-color:white;
+   
+   
+
+
+   
+    
+    
+}
+#content{
+    background-color: white;
+    width:800px;
+    margin-left:left;
+    
+
+
+
+}
+#footer{
+    color:blue;
+}

@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>contact</title>
 </head>
 <body>
+   <div id="container">
+      <div id="header"></div>
+
            <!--header-->
    <header>
     <nav>
- <a href="Resume.html"style="padding-right:50px;">My Site</a> 
+ <a href="Index.html"style="padding-right:50px;">My Site</a> 
  <a href="AboutMe.html"style="padding-right:50px;">About Me</a>
  <a href="Portfolio.html"style="padding-right:50px;">Portfolio</a><hr>
 
        
     </nav>
  </header>
+</div>
  <div>
     <fieldset>
    <form action="http://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
@@ -52,25 +57,42 @@
         <label for="No">No</label>
         <br>
         <p>Best Contact method:</p>
-        <input type="checkbox" id="contactphone" name="contact-phone" value="Phone"
+        <input type="checkbox" id="contactphone" name="contact" value="Phone"
         label for="contactphone">Phone</label>
-        <input type="checkbox" id="contactemail" name="contact-email" value= "Email" 
+        <input type="checkbox" id="contactemail" name="contact" value= "Email" 
         label for="contactemail">Email</label>
+        <input type="checkbox" id="contactFeralpigeons" name="contact" value= "flying bird" 
+        label for="contactpigeons">Feral pigeons</label>
         <br>
+     
         <br>
-        <p></p>Comments:</p>
+        <p>Select for booking:</p>
+        <select name="Photography">
+         <option value="none">none</option>
+           <option value="wedding">Wedding</option>
+            <option value="portrait">Portrait</option>
+            <option value="events">Events</option>
+           <option value="travel">Travel</option>
+        <option value="editorial">Editorial</option>
+       <option value="product">Product</option>
+           
+        </select>
+        <p>Comments:</p>
         
-        <br>
+        
         
         <textarea rows="4" cols="50" id="comments" maxlength="350" name="comments">Questions?</textarea>
      
-     
-           
-      
+     <br>
+      <br>
+
+        <button>Submit</button>
+       <!--    
+      <input type="submit" value="submit"/>
+       -->
       </fieldset>
       <br>
 
-      <button>Submit</button>
    
     </form>
     <br>
@@ -78,7 +100,7 @@
   
  </div>
  <br>
- <hr>
+
  
  <div>
    <!--Email Me-->
@@ -95,7 +117,9 @@
 <hr>
 <!--footer-->
 <footer> 
-    <p>Cody Scott Photography|Videography @2021 
+   <br>
+   <br>
+   <p align="center">Cody Scott Photography|Videography&copy;2021 </p>
  
     </p>
  </footer>
