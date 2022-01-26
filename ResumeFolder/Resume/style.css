@@ -1,5 +1,5 @@
 body{
-    background-color: #C4DFE9;
+    background-color: rgb(89, 78, 247);
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -11,7 +11,7 @@ A {color: #035077;
 A:hover{
     background-color: rgb(190, 213, 235);
 }
-h1, h2, h3{
+h1, h2, h3, h4, content: '\edea';{
     margin: 0;
 
 
@@ -37,48 +37,68 @@ h1, h2, h3{
     
 }
 #header{
-    background-color:rgb(235, 231, 231);
+    background-color:#97C7D8;
     margin-left: auto;
-    matgin-right: auto;
-    padding: 5px
+    margin-right: auto;
+    padding: 15px
 
 }
 #Resume{
     color:rgb(150, 144, 144)
 }
-#Maintext{
-  
-  
-   padding:15px;
-   float:right;
-   width:600px;
+
+   
 
   
    
    
 
-}
-#photo{
-   margin-left:left;
-   padding:10px;
-   background-color:white;
-   
+
+
    
 
 
    
+    #photo{
+        
+        
+        float:right;
+        background-color:rgb(243, 241, 236);
+        padding:15px;
     
+      
+      
+       
+        
+     
+        
+        
+        
+    }
+ 
     
-}
+
 #content{
-    background-color: white;
+    background-color:rgb(185, 211, 70);
     width:800px;
-    margin-left:left;
+    padding:0px;
+    
+
+}
     
 
 
 
+#maintext{
+    background-color:#97C7D8;
+    padding:10px;
+    float:left;
+    width:800px;
+   
+  
+    
+    
 }
 #footer{
-    color:blue;
+    color: black;
 }
