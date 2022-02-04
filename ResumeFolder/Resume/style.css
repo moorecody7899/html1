@@ -1,26 +1,41 @@
 body{
-    background-color: rgb(89, 78, 247);
+    
+    font-family: 'Source Code Pro', monospace;
+}
+p{
     font-family: 'Source Code Pro', monospace;
 }
 
-A {color: #035077;
-    text-decoration: none;
+    a{
+        font-family: 'Source Code Pro', monospace;
+    }
     
+
+a:hover{
+    background-color: rgb(216, 67, 216);
+    font-family: 'Source Code Pro', monospace;
     
 }
-A:hover{
-    background-color: rgb(190, 213, 235);
-}
-h1, h2, h3, h4, content: '\edea';{
-    margin: 0;
 
-
+h1{
+    font-family: 'Source Code Pro', monospace;
 
 }
+h3{
+    font-family: 'Source Code Pro', monospace;
+}
+ul{
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+
+
 #digital{
    
     list-style-type:none;
-    padding:0;
+    padding:15px;
 
 
 }
@@ -28,77 +43,93 @@ h1, h2, h3, h4, content: '\edea';{
     list-style-type:none;
     padding:0
 }
-#education{
-    color:none;
+
+
+
+  
     
-}
-#skill{
-    color:none;
-    
-}
+
 #header{
     background-color:#97C7D8;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px
-
+  
+  
+    padding: 1px
+    
 }
 #Resume{
     color:rgb(150, 144, 144)
 }
+#contact{
+    background-color: rgb(230, 225, 225);
+    padding: 15px;
+}
+   #contactyou{
+       background-color: rgb(216, 211, 211);
+       padding: 15px;
+      
+   }
 
+  #story{
+      background-color: rgb(163, 163, 167);
+      padding: 5px;
+  }
+   
    
 
+#contactheader{
+    background-color:#97C7D8;
+
+    padding: 0px;
+    
+
+}
+#portfoliotext{
+    background-color: rgb(248, 245, 246);
+    padding: 15px;
+}
+   
+
+#photo2{
+    background-color;
+    padding: 5%;
   
-   
-   
 
-
-
-   
-
-
+}
    
     #photo{
         
         
-        float:right;
-        background-color:rgb(243, 241, 236);
+   
+        background-color:rgb(120, 148, 175);
         padding:15px;
-    
-      
-      
+        float: top;
        
         
-     
-        
-        
-        
     }
+
  
-    
+    #headshot{
+        background-color: rgb(243, 241, 242);
+        padding: 15px;
 
-#content{
-    background-color:rgb(185, 211, 70);
-    width:800px;
-    padding:0px;
-    
+      
+       
+      
+       
+       
+        
+     }
+     #maintext{
+        float: left;
+       
+     }
 
-}
-    
 
 
-
-#maintext{
-    background-color:#97C7D8;
-    padding:10px;
-    float:left;
-    width:800px;
-   
-  
     
-    
-}
 #footer{
-    color: black;
+    background-color: rgb(224, 222, 222);
 }
+
+
+
