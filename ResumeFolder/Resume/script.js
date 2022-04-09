@@ -23,4 +23,61 @@ function askName() {
         
     )();   
 }
-//“Good Morning, (Name they Entered)! Thank you for reviewing my resume site.”
+const myReferences = [
+    {
+    name: "Olive Garden",
+    company: "Olive Garden",
+    phone:"801-646-5675",
+    reference:"Cody is amazing",
+},
+
+{
+    name:"Ztejas",
+    company:"Ztejas",
+    phone:"801-453-6783",
+    reference:"Cody is outstanding",
+},
+{
+    name:"RedRock Brewery",
+    company: "RedRock Brewing ",
+    phone:"833-634-7678",
+    reference:"Cody was an amazing Bartender! Stopped in RR brewing,  Cody told us all the hot spots to check out in town. ",
+
+},
+];
+
+
+
+
+  for (i = 0; i < myReferences.length; i++)
+  document.getElementById("results").innerHTML = (myReferences[i].name + " said this: " + myReferences[i].reference);
+
+
+
+      $(document).ready(function () {
+        $("#buttonOneHide").click(function () {
+            $("#film").hide(500);
+        });
+        $("#buttonOneShow").click(function () {
+            $("#film").show(500);
+        });
+    });
+    
+    $(document).ready(function () {
+        $("#buttonTwoHide").click(function () {
+            $("#jobTwo").hide(500);
+        });
+        $("#buttonTwoShow").click(function () {
+            $("#jobTwo").show(500);
+        });
+    });
+    
+    $(document).ready(function () {
+        $("#buttonThreeHide").click(function () {
+            $("#jobThree").hide(500);
+        });
+        $("#buttonThreeShow").click(function () {
+            $("#jobThree").show(500);
+        });
+    });
+    

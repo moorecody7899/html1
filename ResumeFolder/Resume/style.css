@@ -53,7 +53,7 @@ ul{
     background-color:#97C7D8;
   
   
-    padding: 1px
+    padding: 10px;
     
 }
 #Resume{
@@ -79,7 +79,8 @@ ul{
 #contactheader{
     background-color:#97C7D8;
 
-    padding: 0px;
+    padding: 15px;
+    margin: 12px;
     
 
 }
@@ -90,7 +91,7 @@ ul{
    
 
 #photo2{
-    background-color;
+    background-color: none;
     padding: 5%;
   
 

@@ -5,14 +5,15 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
 
 
-<title>Resume</title>
+ <title>Resume</title>
 
 </head>
 
@@ -35,10 +36,10 @@
       <div class="row">
          <div class="col-lg-4">
    <nav>
-      <a href="" style="padding-right:10px;" style="strong;">home</a> 
-      <a href="ContactMe.html" style="padding-right:10px;" downloud class="download btn btn-sm">Contact Me</a> 
-      <a href="AboutMe.html" style="padding-right:10px;" downloud class="download btn btn-sm">About Me</a> 
-      <a href="Portfolio.html "style="padding-righ:10px;" downloud class="download btn btn-sm">Portfolio</a> 
+      <a href="" style="padding-right:10px;" style="content: '\f032';">home</a> 
+      <a href="ContactMe.html" style="padding-right:10px" downloud class="download btn btn-sm">Contact Me</a> 
+      <a href="AboutMe.html" style="padding-right:10px" downloud class="download btn btn-sm">About Me</a> 
+      <a href="Portfolio.html "style="padding-righ:10px" downloud class="download btn btn-sm">Portfolio</a> 
 
         </nav>
    
@@ -55,7 +56,7 @@
    <div class="row">
       <div class="col-lg-12">
       
-<nav>
+   <nav>
       <a href="#skills"style="padding-right:50px;">SKILLS</a>
   
       <a href="#Digital"style="padding-right:50px;">FILM</a>
@@ -67,8 +68,8 @@
              
    </nav>
    
-</div>
-</div>
+   </div>
+      </div>
 
 </div>
 
@@ -88,9 +89,9 @@
             <p>Hello! Thanks for checking out My Site! I'm a dedicated Photographer exhibiting true love for craft, art, and science of Film photography and digital process. Seasoned professional at using camera lenses, controls, and composition to capture stunning results. 
                Consistently enhancing creative insight through projects and professional workshops. My Professional work includes portrait, wedding, and travel photography.</p>
          </div>
-      <img src="./Images/DSC_2462.jpg" alt="My Head Shot"  style= width:25%;>
+        <img src="./Images/DSC_2462.jpg" alt="My Head Shot"  style= width:25%;>
      
-     </div>
+       </div>
 </div>
 <hr>
 
@@ -141,14 +142,24 @@
   
      
      <!--Bio Style-->
- 
+
+ <div id="filmheader">
+     <table style="width: 100%">
+      
+         <thead class="table-primary">
+    <th colspan="12" style="background-color:#97C7D8;" class="h3 text-center">What I shoot</th>
+         </thead>
+      </table>
+   </div>
+   <br>
+  
+
      
     <div id="film">
      <table style="width: 100%">
       
          <thead class="table-primary">
 
-        <th colspan="12" style="background-color:#97C7D8;" class="h3 text-center">What I shoot</th>
          </thead>
       </table>
     
@@ -161,8 +172,25 @@
           <li>Product Photography</li>
      </ul>
    </div>
-     
+   <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:10px;
+        border: 3px solid white; 
+      }
+      </style>
+      <br>
    
+<div class="center">
+  
+   <button id="buttonOneShow">Show Me</button>
+   <button id="buttonOneHide">Got it</button>
+</div>
+     
+<br>
+<br>
    
   <div id="education">
    
@@ -212,9 +240,21 @@
      </Section>
   </div>
   <hr>
+<div class="container-fluid">
+   <div class="row">
+      <div class="col-lg-4">
+ <h3 id="References"></h3>
+ 
+ <p id="results"></p>
+      
+     </div>
+  </div>
+</div>
+
   <Div id="Resume"
      
      <!--resume-->
+     
      <section id="Resume" align="center"> 
         <p align="center">~Please download my Resume~</p>
         <hr>
